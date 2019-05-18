@@ -179,11 +179,9 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 872415232
 TARGET_PER_MGR_ENABLED := true
 
 # Power
-<<<<<<< HEAD:BoardConfig.mk
 TARGET_HAS_NO_WLAN_STATS := true
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
 TARGET_HAS_NO_WIFI_STATS := true
->>>>>>> 7b9c8ff... Tissot: Switch back to 1.0 power HAL:BoardConfigCommon.mk
 TARGET_USES_INTERACTION_BOOST := true
 
 # Qualcomm
